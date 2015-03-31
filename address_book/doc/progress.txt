@@ -1,0 +1,15 @@
+*********
+creation de la structure base sur Dom0 ex12
+*********
+
+Adaptation des scripts pour inclure le carnet d'adresse
+
+*********
+Ajout de plusieur champs d'entree
+
+*********
+Ajout de maps et recherche sur champ first_name
+
+*********
+
+probleme avec declarations de classes dans le fichier contact_table.dart

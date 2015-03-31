@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet d'adresses</title>
+    <link rel="stylesheet" href="css/link.css"/>
+    <link rel="stylesheet" href="css/table.css"/>
+  </head>
+ 
+  <body>   
+    <p id="text"><h2>Carnet d'adresse d'Adam Tremblay</h2></p>
+   
+    <div id="main">
+    
+      <form id="enter_contact">
+        <label for="first_name">Prenom</label><input type="text" id="first_name-input" required/><br/>
+        <label for="last_name">Nom de famille</label><input type="text" id="last_name-input" /><br/>
+        <label for="email">Courriel</label><input type="email" id="email-input" required/><br/>
+        <label for="cell_number">Cellulaire</label><input type="tel" id="cell_number-input" required/><br/>                       
+      </form>
+      
+      <table id="contact-table" width="700">
+        <tr id="table-headers">
+          <th>#</th>              
+          <th>Prenom</th>
+          <th>Nom de Famille</th>
+          <th>Courriel</th>
+          <th>Cell</th>
+        </tr>
+      </table>
+      <button id="add-contact" class="button">Ajouter</button>
+      <button id="clear-contacts" class="button">Annuler</button>
+      <button id="load-contacts" class="button">Charger</button>
+      <button id="save-contacts" class="button">Enregistrer</button>
+      
+      
+    </div>
+    <script type="application/dart" src="index.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
