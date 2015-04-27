@@ -1,7 +1,7 @@
 import 'package:ondart/ondart.dart';
 
 main(){
-  new Contacts();
+  new ContactTable();
   
   /*call the new class Contact Contacts() function*/
   
